@@ -1,0 +1,47 @@
+body {
+    font-family: "open sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #202020;
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.calc {
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+}
+input {
+    border: none;
+    height: 100px;
+    text-align: end;
+    padding: 0 15px;
+    font-size: 35px;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid rgb(68, 203, 236);
+
+}
+button {
+    width: 60px;
+    height: 60px;
+    background-color: #252525;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: #ccc;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 2px solid rgb(68, 203, 236);
+    border-radius: 10px;
+}
+
+button:active {
+    background-color: white;
+    color: black;
+}
